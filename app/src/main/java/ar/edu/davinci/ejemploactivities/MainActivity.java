@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(getApplicationContext(), StudentListActivity.class);
+                    intent.putExtra("id_producto", 100);
+                    intent.putExtra("new_product", true);
                     startActivity(intent);
                 }
             });
