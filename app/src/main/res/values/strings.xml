@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">EjemploActivities</string>
+    <string name="button_text">Cambiar de pantalla</string>
 </resources>
